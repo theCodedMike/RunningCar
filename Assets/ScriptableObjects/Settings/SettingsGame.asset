@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1195614f7313c41b6d6dad197bbcbb, type: 3}
+  m_Name: SettingsGame
+  m_EditorClassIdentifier: 
+  speed:
+    from: 0
+    to: 0
+  stering:
+    from: 0
+    to: 0
+  velocity:
+    from: 0
+    to: 0
+  jumpDistance: 4.75
+  jumpHeight: 1.25
+  decreaseSpeedAtTurnTo: 0.35
+  speedUp: 1.8
+  speedDown: 0.5
+  dailyRewardIsOn: 1
+  dailyRewardDatas: []
+  dailyTaskIsOn: 1
+  dailyTasks: []
+  dailyTaskRewards: 

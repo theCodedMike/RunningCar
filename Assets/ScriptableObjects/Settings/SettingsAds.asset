@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e454e3421555f4285fcef4505eaed0, type: 3}
+  m_Name: SettingsAds
+  m_EditorClassIdentifier: 
+  adMobOn: 0
+  adMobAppIdIOS: 
+  adMobAppIdAndroid: 
+  adMobBannerIdIOS: 
+  adMobBannerIdAndroid: 
+  adMobInterstitialIdIOS: 
+  adMobInterstitialIdAndroid: 
+  adMobRewardedVideoIdIOS: 
+  adMobRewardedVideoIdAndroid: 
+  unityAdsOn: 0
+  unityAdsTestMode: 1
+  unityAdsAppIdIOS: 
+  unityAdsAppIdAndroid: 
+  unityAdsBannerIdIOS: 
+  unityAdsBannerIdAndroid: 
+  unityAdsInterstitialIdIOS: 
+  unityAdsInterstitialIdAndroid: 
+  unityAdsRewardedVideoIdIOS: 
+  unityAdsRewardedVideoIdAndroid: 
+  showRewardVideoWhenLose: 1
+  showDoubleCoinsAtDailyReward: 1
+  showDoubleCoinsAtDailyTask: 1
+  debugMessagesOn: 1

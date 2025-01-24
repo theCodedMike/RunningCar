@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808b4365c16152840b2fe195a794680d, type: 3}
+  m_Name: SkinHolder
+  m_EditorClassIdentifier: 
+  skinsBody:
+  - name: Pickup
+    id: player1
+    price: 0
+    isFirst: 1
+    mesh: {fileID: -2432090755550338912, guid: 02e1bf346ded745988448be99868d8a0, type: 3}
+    material: {fileID: 2100000, guid: 931bf699f914045a68a7018dc087460a, type: 2}
+    speed: 0.324
+    steering: 0.191
+    velocity: 0.255
+  - name: Sport Car
+    id: player2
+    price: 50
+    isFirst: 0
+    mesh: {fileID: -2432090755550338912, guid: 67aed5168dba84437999c0e0bb72f965, type: 3}
+    material: {fileID: 2100000, guid: 5918f7050dd374e0cb9df4c9d6c8ced2, type: 2}
+    speed: 0.597
+    steering: 0.695
+    velocity: 0.39
+  - name: Van
+    id: player3
+    price: 100
+    isFirst: 0
+    mesh: {fileID: -2432090755550338912, guid: 59db06bdd40ce4ebd8b176c9c6663eee, type: 3}
+    material: {fileID: 2100000, guid: b0f63e38ffc2b470cba4cdc67a27f089, type: 2}
+    speed: 0.286
+    steering: 0.123
+    velocity: 0.487
+  - name: Off Road
+    id: player4
+    price: 150
+    isFirst: 0
+    mesh: {fileID: -2432090755550338912, guid: 4241b394513a6446ab1cac628d9f2211, type: 3}
+    material: {fileID: 2100000, guid: 3cd4c8509a3fb423ba88b007902caf07, type: 2}
+    speed: 0.208
+    steering: 0.24
+    velocity: 0.558
+  - name: Rally
+    id: player5
+    price: 200
+    isFirst: 0
+    mesh: {fileID: -2432090755550338912, guid: 43bab1a5138b9491689a8e8ebfd451b4, type: 3}
+    material: {fileID: 2100000, guid: 3a759fb53a4b3475b93356a514cbe64f, type: 2}
+    speed: 1
+    steering: 1
+    velocity: 1
+  skinsWheels:
+  - name: Runner
+    id: 13198426ff1b49b1bcf15309096f8de7
+    price: 0
+    isFirst: 1
+    mesh: {fileID: -2432090755550338912, guid: a998356a9e7cb49ddb05486d44385497, type: 3}
+    material: {fileID: 2100000, guid: 5c40aa123c077437780a31036c3441e0, type: 2}
+    speed: 0.091
+    steering: 0.141
+    velocity: 0.227
+  - name: Vintage
+    id: 11923ab752904d3f9782c3f6f08b25eb
+    price: 50
+    isFirst: 0
+    mesh: {fileID: -2432090755550338912, guid: c46a971d0f39d4d5f9853b701e708382, type: 3}
+    material: {fileID: 2100000, guid: 168232436e50142f49bdff7145c48b4c, type: 2}
+    speed: 0.524
+    steering: 0.119
+    velocity: 0.366
+  - name: Sport
+    id: d3363aa6bfdf4e6c89ed92cc1e781b18
+    price: 100
+    isFirst: 0
+    mesh: {fileID: -2432090755550338912, guid: a0fced52603d34b6e92194bdf4f45b95, type: 3}
+    material: {fileID: 2100000, guid: d8eb2f7386a994795aa82e59974401e9, type: 2}
+    speed: 1
+    steering: 1
+    velocity: 1

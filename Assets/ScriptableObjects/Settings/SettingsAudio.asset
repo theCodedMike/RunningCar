@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88a7a2cf3af3bf459de101d51fb2f89, type: 3}
+  m_Name: SettingsAudio
+  m_EditorClassIdentifier: 
+  audioButtonClick: {fileID: 8300000, guid: ee53c057c3105314fb5aa7f72ff1cc69, type: 3}
+  audioSwitch: {fileID: 8300000, guid: cce0eda62827b404684c17939e523653, type: 3}
+  audioError: {fileID: 8300000, guid: ba4d7a7fb25a70044b5e34ee16cbbf47, type: 3}
+  audioSuccessful: {fileID: 8300000, guid: c3fccb59fab1e05458b0b85f2dd81b03, type: 3}
+  audioEquip: {fileID: 8300000, guid: c4939b6d650da9b4cb71a9296306b3c5, type: 3}
+  audioDailyRewardWheel: {fileID: 8300000, guid: 8b888c37f433fdb4f8aad83a8d3a7258, type: 3}
+  audioDailyTaskNotification: {fileID: 8300000, guid: 974f5139ea306084e92fb7259d8c377d, type: 3}
+  audioCoin: {fileID: 8300000, guid: d5e50224d48c988458bb7bebb570b387, type: 3}
+  audioPoint: {fileID: 8300000, guid: 28103dbe38fd56244b8b10deb1c7c131, type: 3}
+  audioBrake: {fileID: 8300000, guid: bbf2bb0dbcb14854ba79e021c9ca02e6, type: 3}
+  audioJump: {fileID: 8300000, guid: 91f858f679948f848b1db583633e2c73, type: 3}
+  audioTurn: {fileID: 8300000, guid: ef716170a6abb1b4698c806aaab7d8da, type: 3}
+  audioSaw: {fileID: 8300000, guid: fd65fb8928f7f714ea2b5598a1f55ac9, type: 3}
+  audioEngine: {fileID: 8300000, guid: 7eccdd4e6cb9b68439254f621ee7117e, type: 3}
+  audioSpeedUp: {fileID: 8300000, guid: 7075f1c58421de24782ed38405bd5fa8, type: 3}
+  audioSlowDown: {fileID: 8300000, guid: b4a10ac2442e1654b9be4fab8f640320, type: 3}
+  audioSmash1: {fileID: 8300000, guid: 58e7c211fe554cf48985f1bc998782a7, type: 3}
+  audioSmash2: {fileID: 8300000, guid: 3bf603dd06ef2714293f89455ffe219b, type: 3}
+  audioStartLinePrepare: {fileID: 8300000, guid: 8d672e5b72326954a9542abe728da1c9, type: 3}
+  audioStartLineRun: {fileID: 8300000, guid: e28269769b3a0704085c414cbe5ff11f, type: 3}
+  audioLose: {fileID: 8300000, guid: d9526beff00c2f947b2b280514f9ff84, type: 3}
+  audioWin: {fileID: 8300000, guid: 04ce304f471170b4ba549232423733b1, type: 3}
+  musicGame: {fileID: 8300000, guid: 03020862ea786354eb0860c902bce9bb, type: 3}
+  musicMenu: {fileID: 8300000, guid: 025ffaff3cb5bc84a9445424bd4a26ff, type: 3}
