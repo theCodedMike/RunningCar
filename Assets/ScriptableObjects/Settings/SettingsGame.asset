@@ -13,21 +13,57 @@ MonoBehaviour:
   m_Name: SettingsGame
   m_EditorClassIdentifier: 
   speed:
-    from: 0
-    to: 0
-  stering:
-    from: 0
+    from: 3
+    to: 8
+  steering:
+    from: 0.125
     to: 0
   velocity:
-    from: 0
-    to: 0
-  jumpDistance: 4.75
-  jumpHeight: 1.25
+    from: 0.025
+    to: 0.2
+  jumpDistance: 5.5
+  jumpHeight: 1.35
   decreaseSpeedAtTurnTo: 0.35
   speedUp: 1.8
   speedDown: 0.5
   dailyRewardIsOn: 1
-  dailyRewardDatas: []
+  dailyRewardDatas:
+  - type: 0
+    value: 0
+  - type: 1
+    value: 5
+  - type: 1
+    value: 10
+  - type: 1
+    value: 15
+  - type: 0
+    value: 0
+  - type: 1
+    value: 20
+  - type: 1
+    value: 25
+  - type: 1
+    value: 30
   dailyTaskIsOn: 1
-  dailyTasks: []
-  dailyTaskRewards: 
+  dailyTasks:
+  - type: 0
+    values: 15
+  - type: 1
+    values: 5
+  - type: 2
+    values: 3
+  - type: 3
+    values: 10
+  - type: 4
+    values: 9
+  - type: 1
+    values: 10
+  - type: 0
+    values: 30
+  - type: 3
+    values: 20
+  - type: 4
+    values: 18
+  - type: 2
+    values: 6
+  dailyTaskRewards: 050000000a0000000f00000014000000190000001e000000

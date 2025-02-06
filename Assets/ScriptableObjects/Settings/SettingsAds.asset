@@ -31,7 +31,26 @@ MonoBehaviour:
   unityAdsInterstitialIdAndroid: 
   unityAdsRewardedVideoIdIOS: 
   unityAdsRewardedVideoIdAndroid: 
+  showOptions:
+  - scene: 0
+    bannerShowAtStart: 0
+    interstitialShowAtStart: 0
+  - scene: 1
+    bannerShowAtStart: 0
+    interstitialShowAtStart: 0
+  - scene: 2
+    bannerShowAtStart: 1
+    interstitialShowAtStart: 1
+  - scene: 3
+    bannerShowAtStart: 0
+    interstitialShowAtStart: 1
+  - scene: 4
+    bannerShowAtStart: 1
+    interstitialShowAtStart: 0
+  - scene: 5
+    bannerShowAtStart: 1
+    interstitialShowAtStart: 0
   showRewardVideoWhenLose: 1
   showDoubleCoinsAtDailyReward: 1
   showDoubleCoinsAtDailyTask: 1
-  debugMessagesOn: 1
+  debugMessagesOn: 0

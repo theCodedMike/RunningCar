@@ -79,7 +79,7 @@ namespace Editor
         private static SerializedProperty _audioButtonClick;
         private static SerializedProperty _audioSwitch;
         private static SerializedProperty _audioError;
-        private static SerializedProperty _audioSucessfull;
+        private static SerializedProperty _audioSuccessful;
         private static SerializedProperty _audioEquip;
 
         private static SerializedProperty _audioDailyRewardWheel;
@@ -177,7 +177,7 @@ namespace Editor
             _audioButtonClick = _soSettingsAudio.FindProperty("audioButtonClick");
             _audioSwitch = _soSettingsAudio.FindProperty("audioSwitch");
             _audioError = _soSettingsAudio.FindProperty("audioError");
-            _audioSucessfull = _soSettingsAudio.FindProperty("audioSuccessful");
+            _audioSuccessful = _soSettingsAudio.FindProperty("audioSuccessful");
             _audioEquip = _soSettingsAudio.FindProperty("audioEquip");
 
             _audioDailyRewardWheel = _soSettingsAudio.FindProperty("audioDailyRewardWheel");
@@ -584,7 +584,7 @@ namespace Editor
             EditorGUILayout.PropertyField(_audioButtonClick, new GUIContent("Button Click:"));
             EditorGUILayout.PropertyField(_audioSwitch, new GUIContent("Switch:"));
             EditorGUILayout.PropertyField(_audioError, new GUIContent("Error:"));
-            EditorGUILayout.PropertyField(_audioSucessfull, new GUIContent("Successful:"));
+            EditorGUILayout.PropertyField(_audioSuccessful, new GUIContent("Successful:"));
             EditorGUILayout.PropertyField(_audioEquip, new GUIContent("Equip:"));
 
             EditorGUILayout.Space(5);

@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transactions: {fileID: 0}
   delay: 0.85
-  scenario: 1
+  scenario: 0
   launchScreenDelay: 1.6
 --- !u!114 &8449767003919429914
 MonoBehaviour:

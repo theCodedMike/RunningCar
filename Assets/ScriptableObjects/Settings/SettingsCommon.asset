@@ -17,4 +17,14 @@ MonoBehaviour:
   rateUsIosAppId: 
   rateUsAndroidPackageName: 
   notificationOn: 1
-  notificationData: []
+  notificationData:
+  - title: Hi
+    text:
+    - Play once more!
+    - Beat your records
+    delayHours: 2
+  - title: Lets play again
+    text:
+    - Play once more!
+    - Beat your records
+    delayHours: 12

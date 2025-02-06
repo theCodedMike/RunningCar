@@ -74,6 +74,7 @@ namespace Game.Objects.Player
         public PlayerInteractionType playerInteractionType = PlayerInteractionType.Turn;
 
         [Header("Jump")]
+        [HideInInspector]
         public float jumpForce = 10f;
         [HideInInspector]
         public bool inJump = false;

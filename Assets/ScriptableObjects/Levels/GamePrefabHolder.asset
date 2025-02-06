@@ -12,6 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73c62328649bbf43bee95f51023193c, type: 3}
   m_Name: GamePrefabHolder
   m_EditorClassIdentifier: 
-  basic: []
-  grounds: []
+  basic:
+  - prefab: {fileID: 9082149025415014035, guid: c8c9872d5bf13417cac5d4e6df8bc0e6, type: 3}
+    icon: {fileID: 21300000, guid: a74082b0783cc40a9b9b49b0ab1ee351, type: 3}
+    name: Coin
+  - prefab: {fileID: 4554029698920319133, guid: ee0022c5c6b7343ac99195686633cf85, type: 3}
+    icon: {fileID: 21300000, guid: 24a7f5b712f854ca0bb3ec98bc675291, type: 3}
+    name: Star
+  grounds:
+  - prefab: {fileID: 5566524533686469881, guid: e45efe7fd29804d65b966c6524f0ffda, type: 3}
+    icon: {fileID: 21300000, guid: ba3949660381d43619c1c924b9850827, type: 3}
+    name: Start
+  - prefab: {fileID: 1975871802708112204, guid: 97c40cbc2c72a4e6eb0d9a05b2587e8b, type: 3}
+    icon: {fileID: 21300000, guid: 02b37146657bd48deb3d4e51a9cfdf92, type: 3}
+    name: Finish
+  - prefab: {fileID: 429592814506896264, guid: 487cf164f34984cd1a5148eeedb20f7f, type: 3}
+    icon: {fileID: 21300000, guid: 62b70cadaadb24248ad44934787ce98e, type: 3}
+    name: Forward
+  - prefab: {fileID: 3153228261953083032, guid: 3868a949218ed489988924690bb87d41, type: 3}
+    icon: {fileID: 21300000, guid: b8ee1bb55ef124e11acabfb8b5dbe47a, type: 3}
+    name: Narrow
+  - prefab: {fileID: 6483056829294070670, guid: 13cd83e20db4142768fd07e224cc31ab, type: 3}
+    icon: {fileID: 21300000, guid: 10912d2373f524285930ca8a9d417b10, type: 3}
+    name: Turn
+  - prefab: {fileID: 3153228261953083032, guid: b624b013713394fd08702de9618dde97, type: 3}
+    icon: {fileID: 21300000, guid: 9fe18283194ab4cf0a78d7a5bf7f4c5d, type: 3}
+    name: Narrow Left
+  - prefab: {fileID: 3153228261953083032, guid: 29a20e6c9323b4bddba847a638baf733, type: 3}
+    icon: {fileID: 21300000, guid: 326cd04514d2d481a87ddbc23598d171, type: 3}
+    name: Narrow Right
+  - prefab: {fileID: 429592814506896264, guid: e10e0f490133648d68f7a409301d1a10, type: 3}
+    icon: {fileID: 21300000, guid: fe710479b4435485993045d006599462, type: 3}
+    name: Jump
+  - prefab: {fileID: 429592814506896264, guid: cae82efb6c03247b785fc35ab72f560a, type: 3}
+    icon: {fileID: 21300000, guid: 8522825a038f74700b9c43f78eb564c2, type: 3}
+    name: Speed Up
+  - prefab: {fileID: 429592814506896264, guid: d1d7667ff33f54d9cb0e925e9a13930b, type: 3}
+    icon: {fileID: 21300000, guid: 0bd3f79fc38b840d999104c8d7438d54, type: 3}
+    name: Slow Down
+  - prefab: {fileID: 429592814506896264, guid: f8031b18ac4364a9f983c49dc8e4c5d3, type: 3}
+    icon: {fileID: 21300000, guid: 77f662d08be5e4a449bbe623517dc18b, type: 3}
+    name: Saw
   other: []

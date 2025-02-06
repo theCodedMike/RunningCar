@@ -14,5 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inAppsOn: 0
   inAppsDebugMessagesOn: 0
-  inAppsBasic: []
-  inAppCoins: []
+  inAppsBasic:
+  - id: id_removeAds
+    on: 1
+    type: 0
+    title: Remove Ads
+    value: 0
+    icon: {fileID: 21300000, guid: 019c56c333d37489abba8eabbda9eb8f, type: 3}
+    bestDealIndicator: 0
+  inAppCoins:
+  - id: id_PurchaseCoins_1
+    on: 1
+    type: 1
+    title: Coins
+    value: 100
+    icon: {fileID: 21300000, guid: 6f88ba2902cf74704a8d60546813119b, type: 3}
+    bestDealIndicator: 0
+  - id: id_PurchaseCoins_2
+    on: 1
+    type: 1
+    title: Coins
+    value: 250
+    icon: {fileID: 21300000, guid: bc341bbfeb27f409b802aa01966f8e9b, type: 3}
+    bestDealIndicator: 0
+  - id: id_PurchaseCoins_3
+    on: 1
+    type: 1
+    title: Coins
+    value: 500
+    icon: {fileID: 21300000, guid: daa9ffb6948e7471186a9d54de575b4c, type: 3}
+    bestDealIndicator: 1

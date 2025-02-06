@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasTransaction: {fileID: 3901249226794988325, guid: 97c1481c9c55f08438efb9dd69c87a0b, type: 3}
-  animationHide: {fileID: 0}
-  animationShow: {fileID: 0}
+  animationHide: {fileID: 7400000, guid: c5514b8e8348d41ae8687300f7e9b810, type: 2}
+  animationShow: {fileID: 7400000, guid: 00e2d76db494e4a82bbd3731d15cc564, type: 2}
   showAtStartScene: 1
 --- !u!114 &477513156044119551
 MonoBehaviour:

@@ -56,6 +56,7 @@ namespace Interface
             float width = _mainCamera.pixelWidth;
             float height = _mainCamera.pixelHeight;
             
+            print($"width: {width}, height: {height}");
             if(isFixWidth)
                 width = fixedWidth;
             if(isFixHeight)
