@@ -32,7 +32,7 @@ namespace System.MobileFeatures.Notification
 
         #endregion
 
-        private void Create()
+        public void Create()
         {
             if (CustomPlayerPrefs.GetBool("notification"))
             {

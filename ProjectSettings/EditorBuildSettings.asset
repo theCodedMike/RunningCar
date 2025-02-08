@@ -8,6 +8,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LaunchScene.scene
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.scene
+    guid: 16f5bf2625f3ac14bbf9660bed973782
+  - enabled: 1
+    path: Assets/Scenes/GameScene.scene
+    guid: 322ed976a73b4404680e6544239191c0
+  - enabled: 1
+    path: Assets/Scenes/SettingsScene.scene
+    guid: 45fe68c5441710145aa972587f34c5c9
+  - enabled: 1
+    path: Assets/Scenes/StoreScene.scene
+    guid: 4d8409fd71eb1064e813c791ba881fdf
+  - enabled: 1
+    path: Assets/Scenes/DailyRewardScene.scene
+    guid: a2fee929a887251438db0f0cdc68cb0e
+  - enabled: 1
+    path: Assets/Scenes/Editor/LevelEditorScene.scene
+    guid: a6611cb9bce38934caf899abcb1272a7
+  - enabled: 1
+    path: Assets/Scenes/DailyTaskScene.scene
+    guid: 443f090c632e64246b5649c4543a3ff7
+  - enabled: 1
+    path: Assets/Scenes/TutorialScene.scene
+    guid: 4cf7008697a16974ba8e8871a5667512
   m_BuildProfiles: []
   m_configObjects: {}
   m_SlimFeaturesWeixinMiniGame:

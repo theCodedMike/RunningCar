@@ -1,17 +1,18 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!1 &964834575689707774
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 9007499151829547551}
   - component: {fileID: 2891695938317853656}
   - component: {fileID: 7247046328119877362}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,12 +82,13 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 626355216986748941}
   - component: {fileID: 3735649151476477778}
   - component: {fileID: 7285494024768880585}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,12 +158,13 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 6734177525082111624}
   - component: {fileID: 5341220048352749911}
   - component: {fileID: 4078485665434098943}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: TextCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +219,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 30538511824ea49efa9abfd54fa5d320, type: 3}
+    m_Font: {fileID: 12800000, guid: 1f8433e7d86c7b84d847662c935a397e, type: 3}
     m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
@@ -235,10 +238,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 7
   m_Component:
   - component: {fileID: 2068490249707215523}
   m_Layer: 5
+  m_HasEditorInfo: 1
   m_Name: CoinIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
