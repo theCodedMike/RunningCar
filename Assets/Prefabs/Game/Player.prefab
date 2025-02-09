@@ -5503,7 +5503,15 @@ MonoBehaviour:
   body:
     filter: {fileID: 0}
     renderer: {fileID: 0}
-  wheels: []
+  wheels:
+  - filter: {fileID: 3344433039102555480}
+    renderer: {fileID: 2255294062450610636}
+  - filter: {fileID: 3705425588408882099}
+    renderer: {fileID: 164921048308004647}
+  - filter: {fileID: 6665859281488440671}
+    renderer: {fileID: 7900538130275027403}
+  - filter: {fileID: 3218119511948255065}
+    renderer: {fileID: 2129275204022500301}
 --- !u!95 &4976509522955519934
 Animator:
   serializedVersion: 5
