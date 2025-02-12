@@ -1,4 +1,3 @@
-using System;
 using System.Audio.Sound;
 using System.Audio.Sound.Audio;
 using Game.Objects.Triggers;
@@ -55,7 +54,7 @@ namespace Game.Objects.Player.Controllers
                     _model.positionWhenTouchFinishLine = transform.position;
                     _model.objectsHolder.gameController.Win();
                     break;
-                case "Game":
+                case "Gate":
                     Gate gate = other.GetComponent<Gate>();
                     if (gate.IsActive())
                         _model.turnBy = gate.GetTurn();

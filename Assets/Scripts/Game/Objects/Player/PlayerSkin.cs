@@ -35,8 +35,8 @@ namespace Game.Objects.Player
             float percentageVelocity = (skinBody.velocity + skinWheels.velocity) / 2f;
 
             _model.speed = _settingsHolder.settingsGame.speed.GetValueByPercentage(percentageSpeed);
-            _model.steering = _settingsHolder.settingsGame.speed.GetValueByPercentage(percentageSteering);
-            _model.velocity = _settingsHolder.settingsGame.speed.GetValueByPercentage(percentageVelocity);
+            _model.steering = _settingsHolder.settingsGame.steering.GetValueByPercentage(percentageSteering);
+            _model.velocity = _settingsHolder.settingsGame.velocity.GetValueByPercentage(percentageVelocity);
         }
     }
 }
