@@ -52,11 +52,11 @@ namespace Editor
             EditorGUILayout.Space(5);
             GUILayout.Label(_settingsEditor.logo, GUILayout.MaxWidth(120), GUILayout.MaxHeight(100));
             EditorGUILayout.BeginVertical();
-            GUILayout.Label("Hello! I'm Alice from PopPopGames.", _settingsEditor.labelTitleLarge);
+            GUILayout.Label("欢迎来到关卡编辑器界面！", _settingsEditor.labelTitleLarge);
             EditorGUILayout.Space(5);
-            GUILayout.Label("Thanks for purchasing my game template!", _settingsEditor.labelParameterNarrow);
-            GUILayout.Label("If you have some questions read documentation.", _settingsEditor.labelParameterNarrow);
-            GUILayout.Label("Please, leave a feedback and rate project at asset store!", _settingsEditor.labelParameterNarrow);
+            GUILayout.Label("", _settingsEditor.labelParameterNarrow);
+            GUILayout.Label("如果有问题，请在Github上提issue即可！", _settingsEditor.labelParameterNarrow);
+            GUILayout.Label("", _settingsEditor.labelParameterNarrow);
             EditorGUILayout.Space(8);
             GUILayout.Label("Project version: " + _settingsEditor.versionNumber, _settingsEditor.labelParameterNarrow);
             EditorGUILayout.EndVertical();
@@ -66,7 +66,7 @@ namespace Editor
                 Application.OpenURL(_settingsEditor.linkDocumentation);
             EditorGUILayout.Space(2);
             EditorGUILayout.BeginHorizontal();
-            if (GUILayout.Button("About Us", _settingsEditor.buttonGray, GUILayout.Width(79)))
+            if (GUILayout.Button("About Me", _settingsEditor.buttonGray, GUILayout.Width(79)))
                 Application.OpenURL(_settingsEditor.linkAboutMe);
             if (GUILayout.Button("Support", _settingsEditor.buttonBlue, GUILayout.Width(79)))
                 Application.OpenURL(_settingsEditor.linkSupport);

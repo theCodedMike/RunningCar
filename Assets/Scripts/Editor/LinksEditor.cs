@@ -22,8 +22,8 @@ namespace Editor
             Application.OpenURL(_settingsEditor.linkDocumentation);
         }
 
-        [MenuItem("Tools/RunningCar/About Us", false, 1000)]
-        public static void OpenAboutUs()
+        [MenuItem("Tools/RunningCar/About Me", false, 1000)]
+        public static void OpenAboutMe()
         {
             Application.OpenURL(_settingsEditor.linkAboutMe);
         }
