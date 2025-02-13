@@ -5660,11 +5660,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a9c30cb2d011441a871590d64a92d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start1: {fileID: 28761840}
-  start2: {fileID: 941186502}
-  start3: {fileID: 1017604666}
-  startActive: {fileID: 21300000, guid: 128c5caeb4fd8461bbe0ac5bd847b78a, type: 3}
-  startInactive: {fileID: 21300000, guid: 35ddb535454b94ec497b355240477257, type: 3}
+  star1: {fileID: 28761840}
+  star2: {fileID: 941186502}
+  star3: {fileID: 1017604666}
+  starActive: {fileID: 21300000, guid: 128c5caeb4fd8461bbe0ac5bd847b78a, type: 3}
+  starInactive: {fileID: 21300000, guid: 35ddb535454b94ec497b355240477257, type: 3}
 --- !u!114 &1160625691
 MonoBehaviour:
   m_ObjectHideFlags: 0
