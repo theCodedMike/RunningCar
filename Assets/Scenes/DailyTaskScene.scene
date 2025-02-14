@@ -672,7 +672,13 @@ MonoBehaviour:
   textProgressBarState: {fileID: 1422688239}
   buttonReceive: {fileID: 210789975}
   overlayCompleted: {fileID: 598169224}
-  dayStrikeIndicators: []
+  dayStrikeIndicators:
+  - {fileID: 362451921}
+  - {fileID: 1173946498}
+  - {fileID: 243183463}
+  - {fileID: 1971729750}
+  - {fileID: 2060345745}
+  - {fileID: 702206286}
   progressStrike: {fileID: 176981354}
 --- !u!1 &122806406
 GameObject:
