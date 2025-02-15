@@ -37,7 +37,7 @@ namespace Interface.Store
             _model.pageGarage.SetActive(_model.state == StoreSceneState.Garage);
             _model.pageStore.SetActive(_model.state == StoreSceneState.Store);
 
-            _model.labelTopBar.text = _model.state == StoreSceneState.Garage ? "GARAGE" : "STORE";
+            _model.labelTopBar.text = _model.state == StoreSceneState.Garage ? "车库" : "商店";
         }
         #endregion
 

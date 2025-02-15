@@ -83,7 +83,7 @@ namespace Interface.DailyTask
                 return;
             if (_isRewardReady)
             {
-                buttonReceive.text = "RECEIVE";
+                buttonReceive.text = "接受";
                 overlayCompleted.SetActive(false);
             }
             else
@@ -95,7 +95,7 @@ namespace Interface.DailyTask
                 }
                 else
                 {
-                    buttonReceive.text = "COMPLETE TASK";
+                    buttonReceive.text = "完成任务";
                     overlayCompleted.SetActive(false);
                 }
             }

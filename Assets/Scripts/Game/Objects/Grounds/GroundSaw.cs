@@ -31,7 +31,7 @@ namespace Game.Objects.Grounds
         private void FixedUpdate()
         {
             Move();
-            CheckIsReashDistance();
+            CheckIsReachDistance();
         }
 
         private void Move()
@@ -42,7 +42,7 @@ namespace Game.Objects.Grounds
             saw.transform.position = Vector3.MoveTowards(saw.transform.position, GetMoveTo(), speed * Time.fixedDeltaTime);
         }
 
-        private void CheckIsReashDistance()
+        private void CheckIsReachDistance()
         {
             if (saw.transform.position == GetMoveTo())
                 isMoveToFirst = !isMoveToFirst;

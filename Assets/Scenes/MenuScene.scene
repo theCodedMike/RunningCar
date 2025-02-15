@@ -10351,12 +10351,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'DAILY
-
-    REWARD'
+  m_text: "\u6BCF\u65E5\n\u5956\u52B1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 641cfcaf6be4dd34b846ff7289f7599d, type: 2}
-  m_sharedMaterial: {fileID: -1351155783233213697, guid: 641cfcaf6be4dd34b846ff7289f7599d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
+  m_sharedMaterial: {fileID: -7064385109152409409, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10380,12 +10378,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.3
+  m_fontSize: 41.65
   m_fontSizeBase: 24.3
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 5.2
-  m_fontSizeMax: 24.3
+  m_fontSizeMin: 10
+  m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096

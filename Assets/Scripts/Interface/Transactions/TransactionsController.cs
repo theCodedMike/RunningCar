@@ -21,9 +21,9 @@ namespace Interface.Transactions
         private void SetCanvas(AnimationClip anim)
         {
             GameObject canvas = Instantiate(_model.canvasTransaction);
-            Animation component = canvas.transform.Find("Tint").GetComponent<Animation>();
-            component.clip = anim;
-            component.Play(anim.name);
+            Animation currAnim = canvas.transform.Find("Tint").GetComponent<Animation>();
+            currAnim.clip = anim;
+            currAnim.Play(anim.name);
         }
     }
 }

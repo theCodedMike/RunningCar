@@ -1,4 +1,5 @@
 #undef UNITYADS_INTEGRATED
+using Data;
 using UnityEngine;
 
 #if UNITYADS_INTEGRATED
@@ -34,7 +35,7 @@ namespace System.MobileFeatures.Ad.UnityAd
         {
 #if !UNITY_STANDALONE
             //Singleton object return
-            if (instance == null)
+            if (Instance == null)
             {
                 DontDestroyOnLoad(this);
 
