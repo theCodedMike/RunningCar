@@ -3971,13 +3971,13 @@ MonoBehaviour:
   icon: {fileID: 1350208705}
   datas:
   - type: 0
-    title: Congratulation
-    context: You have new skin!
+    title: "\u606D\u559C"
+    context: "\u4F60\u6709\u4E86\u65B0\u76AE\u80A4\uFF01"
     audio: {fileID: 8300000, guid: c3fccb59fab1e05458b0b85f2dd81b03, type: 3}
     icon: {fileID: 21300000, guid: 8c446b3f98af14b59847fca8b43493dd, type: 3}
   - type: 1
-    title: Failed
-    context: You need more coins!
+    title: "\u5931\u8D25"
+    context: "\u4F60\u9700\u8981\u66F4\u591A\u7684\u94BB\u77F3\uFF01"
     audio: {fileID: 8300000, guid: ba4d7a7fb25a70044b5e34ee16cbbf47, type: 3}
     icon: {fileID: 21300000, guid: 605cf7f7b194d46afa4e31177a00b047, type: 3}
   body:
@@ -5594,7 +5594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title
+  m_text: "\u6807\u9898"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
   m_sharedMaterial: {fileID: -7064385109152409409, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
@@ -7765,7 +7765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Context
+  m_text: "\u5185\u5BB9"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
   m_sharedMaterial: {fileID: -7064385109152409409, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
@@ -8754,7 +8754,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 46, y: 45}
-  m_SizeDelta: {x: 326.6, y: 23.5}
+  m_SizeDelta: {x: 326.6, y: 40}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1507069154
 MonoBehaviour:
@@ -8803,7 +8803,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.6
+  m_fontSize: 35.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11077,7 +11077,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 46, y: 45}
-  m_SizeDelta: {x: 326.6, y: 23.5}
+  m_SizeDelta: {x: 326.6, y: 40}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1964489518
 MonoBehaviour:
@@ -11126,7 +11126,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.6
+  m_fontSize: 35.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

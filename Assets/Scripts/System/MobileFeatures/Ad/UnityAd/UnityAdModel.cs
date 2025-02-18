@@ -1,3 +1,4 @@
+/*
 #undef UNITYADS_INTEGRATED
 using Data;
 using ScriptableObjects.Settings;
@@ -33,3 +34,4 @@ namespace System.MobileFeatures.Ad.UnityAd
         public AdRewardType rewardType;
     }
 }
+*/

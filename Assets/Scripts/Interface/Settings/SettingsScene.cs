@@ -20,5 +20,7 @@ namespace Interface.Settings
             if(!_settingsHolder.settingsCommon.notificationOn)
                 Destroy(switchNotification.gameObject);
         }
+        
+        
     }
 }

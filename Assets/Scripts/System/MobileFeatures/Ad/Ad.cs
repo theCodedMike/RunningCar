@@ -1,3 +1,4 @@
+/*
 using System.MobileFeatures.Ad.AdMob;
 using System.MobileFeatures.Ad.UnityAd;
 using System.Utility;
@@ -201,3 +202,4 @@ namespace System.MobileFeatures.Ad
         #endregion
     }
 }
+*/

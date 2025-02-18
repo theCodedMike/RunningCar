@@ -1,3 +1,4 @@
+/*
 #if UNITY_EDITOR
 #undef ADMOB_INTEGRATED
 #if ADMOB_INTEGRATED
@@ -20,3 +21,4 @@ namespace System.MobileFeatures.Ad.AdMob
     }
 }
 #endif
+*/

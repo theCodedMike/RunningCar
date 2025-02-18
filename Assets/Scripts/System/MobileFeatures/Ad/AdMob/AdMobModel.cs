@@ -1,3 +1,4 @@
+/*
 #undef ADMOB_INTEGRATED
 using Data;
 using ScriptableObjects.Settings;
@@ -32,3 +33,4 @@ namespace System.MobileFeatures.Ad.AdMob
 #endif
     }
 }
+*/

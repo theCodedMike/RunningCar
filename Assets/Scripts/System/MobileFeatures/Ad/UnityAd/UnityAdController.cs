@@ -1,3 +1,4 @@
+/*
 #undef UNITYADS_INTEGRATED
 using Data;
 using UnityEngine;
@@ -224,3 +225,4 @@ namespace System.MobileFeatures.Ad.UnityAd
         #endregion
     }
 }
+*/

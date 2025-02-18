@@ -1,8 +1,8 @@
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using ScriptableObjects.Level;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Interface.LevelEditor
 {
@@ -42,7 +42,7 @@ namespace Interface.LevelEditor
             DrawObjects();
         }
 
-        private void SceneClosing(Scene scene, bool removingScene)
+        private void SceneClosing(UnityEngine.SceneManagement.Scene scene, bool removingScene)
         {
             Clear();
         }
@@ -155,3 +155,4 @@ namespace Interface.LevelEditor
         #endregion
     }
 }
+#endif

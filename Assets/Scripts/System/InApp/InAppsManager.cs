@@ -246,8 +246,9 @@ namespace System.InApp
             CustomPlayerPrefs.SetBool("ads_removedByInApp", true);
             TryToDestroyRemoveAdsScrollView();
 
+            /*
             if (GameObject.Find("Ad"))
-                GameObject.Find("Ad").GetComponent<AdsInterface>().HideBanner();
+                GameObject.Find("Ad").GetComponent<AdsInterface>().HideBanner();*/
         }
         #endregion
     }

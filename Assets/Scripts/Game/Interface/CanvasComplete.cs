@@ -43,14 +43,14 @@ namespace Game.Interface
             bool nextLevelUnlocked = objectsHolder.levelHolder.IsNextLevelUnlocked();
 
             background.sprite = state == State.Win ? backgroundWin : backgroundLose;
-            textCurrentLevel.text = $"Level {currentLevelId + 1}";
+            textCurrentLevel.text = $"关卡{currentLevelId + 1}";
             if (isUnlockedNextLevel)
-                textNotification.text = "Next level unlocked!";
+                textNotification.text = "下一关卡已解锁哦！";
             else
-                textNotification.text = state == State.Win ? "Play next level!" : "Try again!";
+                textNotification.text = state == State.Win ? "进行下一关吧！" : "再试一次吧！";
 
             if (nextLevel == null)
-                textNotification.text = "You finished all levels";
+                textNotification.text = "恭喜你，完成了所有关卡！";
             indicatorStars.SetStar(rating);
             buttonNextLevel.SetActive(nextLevelUnlocked);
             

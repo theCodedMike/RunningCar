@@ -620,8 +620,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
+  m_sharedMaterial: {fileID: -7064385109152409409, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -938,12 +938,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Speed
-
-'
+  m_text: "\u901F\u5EA6"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 641cfcaf6be4dd34b846ff7289f7599d, type: 2}
-  m_sharedMaterial: {fileID: -1351155783233213697, guid: 641cfcaf6be4dd34b846ff7289f7599d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
+  m_sharedMaterial: {fileID: -7064385109152409409, guid: 2c5647310fe3f7043b8e1348702fac66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1842,7 +1840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2430753499254791367, guid: d262a4204bab8449a9067cd79d676ad8, type: 3}
       propertyPath: m_Name
-      value: ProgressBarStering
+      value: ProgressBarSteering
       objectReference: {fileID: 0}
     - target: {fileID: 6021613059047478475, guid: d262a4204bab8449a9067cd79d676ad8, type: 3}
       propertyPath: isAnimated

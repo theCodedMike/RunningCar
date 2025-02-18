@@ -1,6 +1,6 @@
 using System.Audio.Sound;
 using System.DailyTask;
-using System.MobileFeatures.Ad;
+//using System.MobileFeatures.Ad;
 using Game;
 using Game.Game;
 using Game.Interface;
@@ -51,7 +51,8 @@ namespace Data
         public ScenesController scenesController;
         [Space()]
         public Sound sound;
+        /*
         [Space()]
-        public AdsInterface adsInterface;
+        public AdsInterface adsInterface;*/
     }
 }

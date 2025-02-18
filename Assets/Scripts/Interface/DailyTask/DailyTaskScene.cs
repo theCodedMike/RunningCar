@@ -1,6 +1,6 @@
 using System;
 using System.DailyTask;
-using System.MobileFeatures.Ad;
+//using System.MobileFeatures.Ad;
 using System.Utility;
 using Data;
 using TMPro;
@@ -149,8 +149,10 @@ namespace Interface.DailyTask
             PrepareViews();
         }
 
+        /*
         public void DoubleReward() => objectsHolder.adsInterface.ShowReward(AdRewardType.DailyTask);
-
+        */
+        
         public void ReceiveDoubleReward()
         {
             _isDoubled = true;

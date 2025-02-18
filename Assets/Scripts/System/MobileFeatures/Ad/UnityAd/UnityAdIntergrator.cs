@@ -1,3 +1,4 @@
+/*
 using UnityEditor;
 using UnityEditor.Compilation;
 using UnityEngine;
@@ -47,3 +48,4 @@ namespace System.MobileFeatures.Ad.UnityAd
         }
     }
 }
+*/

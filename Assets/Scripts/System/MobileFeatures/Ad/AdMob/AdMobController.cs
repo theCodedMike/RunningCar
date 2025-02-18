@@ -1,3 +1,4 @@
+/*
 #undef ADMOB_INTEGRATED
 using UnityEngine;
 
@@ -241,3 +242,4 @@ namespace System.MobileFeatures.Ad.AdMob
         #endregion
     }
 }
+*/

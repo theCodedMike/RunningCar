@@ -1,4 +1,4 @@
-using System.MobileFeatures.Ad;
+//using System.MobileFeatures.Ad;
 using Data;
 using Game.Game;
 using UnityEngine;
@@ -17,13 +17,15 @@ namespace Game.Interface
             _objectsHolder = GameObject.Find("ObjectsHolder").GetComponent<ObjectsHolder>();
         }
 
+        
         #region Usage
+        
         public void Watch()
         {
             if(testMode)
                 GameObject.Find("Game").GetComponent<GameController>().ContinueGame();
-            else 
-                _objectsHolder.adsInterface.ShowReward(AdRewardType.RewardAfterLose);
+            /*else
+                _objectsHolder.adsInterface.ShowReward(AdRewardType.RewardAfterLose);*/
         }
 
         public void Cancel() => _objectsHolder.gameController.GameOver();

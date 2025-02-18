@@ -1,6 +1,6 @@
 #if UNITY_EDITOR
-using System.MobileFeatures.Ad.AdMob;
-using System.MobileFeatures.Ad.UnityAd;
+//using System.MobileFeatures.Ad.AdMob;
+//using System.MobileFeatures.Ad.UnityAd;
 using Editor.Components;
 using ScriptableObjects.Settings;
 using UnityEditor;
@@ -317,13 +317,15 @@ namespace Editor
             //Buttons
             EditorGUILayout.Space(10);
             GUILayout.Label("Interaction", _settingsEditor.labelParameter);
+            /*
             if (GUILayout.Button("Apply AppID", _settingsEditor.buttonGreen)) 
-                GoogleAdMobBridge.ApplyAppId(_adMobAppIdIOS.stringValue, _adMobAppIdAndroid.stringValue);
+                GoogleAdMobBridge.ApplyAppId(_adMobAppIdIOS.stringValue, _adMobAppIdAndroid.stringValue);*/
             EditorGUILayout.BeginHorizontal();
+            /*
             if (GUILayout.Button("Integrate", _settingsEditor.buttonYellow)) 
                 GoogleAdMobIntegrator.Integrate();
             if (GUILayout.Button("Disintegrate", _settingsEditor.buttonRed)) 
-                GoogleAdMobIntegrator.Disintegrate();
+                GoogleAdMobIntegrator.Disintegrate();*/
             EditorGUILayout.EndHorizontal();
             EditorGUILayout.Space(10);
             GUILayout.Label("Helps", _settingsEditor.labelParameter);
@@ -372,10 +374,11 @@ namespace Editor
             EditorGUILayout.Space(10);
             GUILayout.Label("Interaction", _settingsEditor.labelParameter);
             EditorGUILayout.BeginHorizontal();
+            /*
             if (GUILayout.Button("Integrate", _settingsEditor.buttonYellow))
                 UnityAdIntegrator.Integrate();
             if (GUILayout.Button("Disintegrate", _settingsEditor.buttonRed)) 
-                UnityAdIntegrator.Disintegrate();
+                UnityAdIntegrator.Disintegrate();*/
             EditorGUILayout.EndHorizontal();
             EditorGUILayout.Space(10);
             

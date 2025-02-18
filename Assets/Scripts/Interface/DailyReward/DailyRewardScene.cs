@@ -1,7 +1,7 @@
 using System;
 using System.Audio.Sound;
 using System.Audio.Sound.Audio;
-using System.MobileFeatures.Ad;
+//using System.MobileFeatures.Ad;
 using System.Utility;
 using Data;
 using TMPro;
@@ -207,8 +207,9 @@ namespace Interface.DailyReward
             HideCanvasReward();
         }
 
+        /*
         public void DoubleReward() => objectsHolder.adsInterface.ShowReward(AdRewardType.DailyReward);
-
+        */
         public void ReceiveDoubleReward()
         {
             IncreaseCoins(_currentReward * 2);
