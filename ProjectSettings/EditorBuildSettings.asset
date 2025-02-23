@@ -32,7 +32,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TutorialScene.scene
     guid: 4cf7008697a16974ba8e8871a5667512
-  m_BuildProfiles: []
+  m_BuildProfiles:
+  - enabled: 0
+    packaged: 0
+    path: Assets/Settings/Build Profiles/New Dev Host Profile.asset
+    guid: dfd6a1eb0cad0a0408727135e17a211d
+  - enabled: 0
+    packaged: 0
+    path: "Assets/Settings/Build Profiles/New \u5FAE\u4FE1\u5C0F\u6E38\u620F Profile.asset"
+    guid: 69e6098ab3f6e77409128485ee1f8521
   m_configObjects: {}
   m_SlimFeaturesWeixinMiniGame:
     AllocateOverhead: 1

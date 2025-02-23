@@ -1,5 +1,6 @@
 using System.Utility;
 using Data;
+using Interface.Indicator;
 using Interface.Store.CanvasStoreAlert;
 using ScriptableObjects.Skins;
 using UnityEngine;
@@ -90,6 +91,7 @@ namespace Interface.Store
             {
                 coins -= skin.price;
                 CustomPlayerPrefs.SetInt("coin", coins);
+                IndicatorsController.Instance.UpdateIndicatorCoins();
 
                 skin.Unlock();
                 _view.ShowAlert(StoreAlertData.Type.Success, skin);

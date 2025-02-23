@@ -4,6 +4,8 @@ namespace Interface.Indicator
 {
     public class IndicatorsController : MonoBehaviour
     {
+        public static IndicatorsController Instance { get; private set;}
+        
         private IndicatorsModel _model;
         private IndicatorsView _view;
 
@@ -11,6 +13,8 @@ namespace Interface.Indicator
         {
             _model = GetComponent<IndicatorsModel>();
             _view = GetComponent<IndicatorsView>();
+            if (Instance == null)
+                Instance = this;
         }
 
         private void Start()
