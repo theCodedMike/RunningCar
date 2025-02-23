@@ -41,7 +41,6 @@ namespace Game.Objects.Player.Controllers
             if (Input.GetMouseButtonDown(0))
             {
                 bool less = Input.mousePosition.y < (float)Screen.height / 100 * 85;
-                print($"here: {less}");
                 if(less)
                     Interact();
             }
@@ -101,7 +100,6 @@ namespace Game.Objects.Player.Controllers
         #region Actions
         private void Interact()
         {
-            print($"Interact: {_model.playerInteractionType}");
             switch (_model.playerInteractionType)
             {
                 case PlayerInteractionType.Turn: Turn(); break;
@@ -135,10 +133,8 @@ namespace Game.Objects.Player.Controllers
                 move = false;
             if (!move)
                 return;
-
-            //print($"forward: {transform.forward}, currSpeed: {_model.currentSpeed}");
+            
             Vector3 movement = transform.forward * (_model.currentSpeed * Time.fixedDeltaTime);
-            //print($"movement: {movement}, speedMode: {GetSpeedMultiplier()}");
             _model.rigidBody.MovePosition(_model.rigidBody.position + (movement * GetSpeedMultiplier()));
         }
 
@@ -166,7 +162,6 @@ namespace Game.Objects.Player.Controllers
 
         private void Turn()
         {
-            print($"Turn: {_model.isMakeTurn}, {_model.objectsHolder.gameModel.state}, {_model.inJump}");
             if (_model.isMakeTurn || _model.objectsHolder.gameModel.state != GameState.Game || _model.inJump)
                 return;
             
@@ -183,19 +178,16 @@ namespace Game.Objects.Player.Controllers
                 return;
             
             _model.currentTimeToMakeTurn -= Time.fixedDeltaTime;
-            print($"TryToMakeTurn-currTime: {_model.currentTimeToMakeTurn}");
             if(_model.currentTimeToMakeTurn > 0)
                 return;
 
             _model.isMakeTurn = false;
-
-            print($"TryToMakeTurn-TurnBy: {transform.eulerAngles.y}, {_model.turnBy}");
+            
             float angle = transform.eulerAngles.y + _model.turnBy;
             _model.animator.Play(_model.turnBy < 0 ? "TurnL" : "TurnR");
             PlayParticles(_model.turnBy < 0 ? PlayerParticleInteract.Left : PlayerParticleInteract.Right);
-            print($"TryToMakeTurn-eulerAngles-before: {transform.eulerAngles}");
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, angle, transform.eulerAngles.z);
-            print($"TryToMakeTurn-eulerAngles-after: {transform.eulerAngles}");
+            
             DecreaseSpeedAtTurn();
 
             if (_model.randomAngleAfterTurn)

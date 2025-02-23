@@ -12,10 +12,10 @@ namespace System.Audio.Sound
             => SoundPlayerController.Instance.Play(clip);
 
         public static void PlaySoundButtonClick()
-            => SoundPlayerController.Instance.Play(SoundType.ButtonClick);
+            => Play(SoundType.ButtonClick);
         
         public static void PlaySoundSwitch()
-            => SoundPlayerController.Instance.Play(SoundType.Switch);
+            => Play(SoundType.Switch);
 
         public static void PlaySoundIncreaseCoin()
             => Play(SoundType.Coin);

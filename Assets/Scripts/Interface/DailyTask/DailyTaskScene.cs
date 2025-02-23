@@ -64,7 +64,7 @@ namespace Interface.DailyTask
             _isCompleted = CustomPlayerPrefs.GetBool("dailyTask_isCompleted", false);
 
             // 更新当前任务
-            textDayIndicator.text = $"Day {(_isCompleted ? daysCompleted : daysCompleted + 1)}";
+            textDayIndicator.text = $"第{(_isCompleted ? daysCompleted : daysCompleted + 1)}天";
             textDescription.text = task.GetTaskDescription();
             textProgressBarState.text = $"{completed}/{task.values}";
             progressBarState.fillAmount = 1f / task.values * completed;

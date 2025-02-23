@@ -72,7 +72,7 @@ namespace Interface.Menu
                 if (CustomPlayerPrefs.GetBool("dailyTask_rewardReady", false))
                 {
                     indicatorDailyTask.SetActive(true);
-                    textIndicatorDailyTask.text = "Take reward!";
+                    textIndicatorDailyTask.text = "接受奖励吧";
                     Sound.Play(SoundType.DailyTaskNotification);
                 }
             } else
@@ -85,7 +85,7 @@ namespace Interface.Menu
                 return;
             
             indicatorDailyTask.SetActive(true);
-            textIndicatorDailyTask.text = "New Task!";
+            textIndicatorDailyTask.text = "新任务";
             Sound.Play(SoundType.DailyTaskNotification);
         }
     }

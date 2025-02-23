@@ -100,7 +100,6 @@ namespace Game.Objects.Player
             body = transform.Find("body").gameObject;
             wheels = transform.Find("wheels").gameObject;
             turnBy = RandomBool.GetRandom() ? 90f : -90f;
-            print($"$Awake: {turnBy}");
         }
 
         public void ReturnToState(PlayerState state)

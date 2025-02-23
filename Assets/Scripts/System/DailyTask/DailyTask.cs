@@ -19,11 +19,11 @@ namespace System.DailyTask
         
         public string GetTaskDescription() => type switch
         {
-            DailyTaskType.MakeTurns => $"Make {values} turns during a game.",
-            DailyTaskType.MakeJumps => $"Make {values} jumps during a game.",
-            DailyTaskType.FinishLevels => $"Finished {values} times.",
-            DailyTaskType.CollectCoins => $"Collects {values} diamonds on levels.",
-            DailyTaskType.CollectRating => $"Catch {values} stars on levels.",
+            DailyTaskType.MakeTurns => $"完成{values}次转弯。",
+            DailyTaskType.MakeJumps => $"完成{values}次跳跃。",
+            DailyTaskType.FinishLevels => $"完成{values}关。",
+            DailyTaskType.CollectCoins => $"收集{values}个钻石。",
+            DailyTaskType.CollectRating => $"收集{values}个星星。",
             _ => ""
         };
     }

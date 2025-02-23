@@ -41,7 +41,6 @@ namespace Interface.UI_Components
 
                 float changeBy = top.fillAmount < targetValue ? animationSpeed : -animationSpeed;
                 float diff = top.fillAmount < targetValue ? targetValue - top.fillAmount : top.fillAmount - targetValue;
-                print($"ProgressBar: changeBy{changeBy}, diff{diff}, fillAmount{top.fillAmount}, targetValue{targetValue}");
                 if (diff < changeBy)
                     changeBy = changeBy < 0 ? -diff : diff;
 

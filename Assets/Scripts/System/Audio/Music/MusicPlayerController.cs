@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Utility;
+using Interface.Settings;
 using UnityEngine;
 
 namespace System.Audio.Music
@@ -50,6 +52,8 @@ namespace System.Audio.Music
         private IEnumerator LoadMusic(MusicType type)
         {
             _model.type = type;
+            ResetVolume();
+            
             if (_model.IsPlay())
             {
                 _model.audioSource.Stop();
@@ -66,5 +70,14 @@ namespace System.Audio.Music
         }
 
         public MusicType GetMusicType() => _model.type;
+
+        public void ResetVolume()
+        {
+            float currVolume = _model.type == MusicType.Game 
+                ? CustomPlayerPrefs.GetFloat(VolumeAdjust.GameVolume, 1f) 
+                : CustomPlayerPrefs.GetFloat(VolumeAdjust.MenuVolume, 1f);
+            
+            _model.audioSource.volume = currVolume;
+        }
     }
 }
